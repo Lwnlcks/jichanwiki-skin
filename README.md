@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/53139020/64106424-21b71f00-cdb3-11e9-8ae2-677834334e44.png)
 ## New Liberty
  * 오픈나무 Liberty를 최대한 기존 스킨과 비슷하게 개조한 스킨입니다.
 
