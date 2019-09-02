@@ -43,42 +43,41 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/other"><span class="fa fa-cogs"></span><span class="hide-title">도구</span></a>
                     </li>
-										{% if imp[2][2] == 1 %}
-						<div class="navbar-login">
-						<style>
-							float: right;
-							padding-left: 0.8rem;
-						</style>
-							<div class="dropdown login-menu">
-								<a class="dropdown-toggle" type="button" id="login-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<img class="profile-img" src="//secure.gravatar.com/avatar/{{"email"|md5_replace}}?d=retro">
-								</a>
-							<div class="dropdown-menu dropdown-menu-right login-dropdown-menu" aria-labelledby="login-menu">
-							<a href="/w/user:{{imp[2][5]}}" class="dropdown-item">{{imp[2][5]}}</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="/record/{{imp[2][5]}}">기여</a>
-							<a class="dropdown-item" href="/topic_record/{{imp[2][5]}}">토론</a>
-							<div class="dropdown-divider"></div>
-							<a href="/user" class="dropdown-item">내 정보</a>
-							<div class="dropdown-divider view-logout"></div>
-							<a href="/logout" class="dropdown-item view-logout">로그아웃</a>
-							</div>
-							</div> &nbsp;
-							<a href="/logout" class="none-outline" data-toggle="modal" data-target="#login-modal">
-								<span class="fa fa-sign-out"></span>
-							</a>
-							</div>
-					{% elif imp[2][2] == 0 %}
-							<div class="navbar-login">
-								<style>
-									float: right;
-									padding-left: 0.8rem;
-								</style>
-									<a href="/user" class="none-outline" data-toggle="modal" data-target="#login-modal">
-										<span class="fa fa-sign-in"></span>
-									</a>
-								</div>
-					{% endif %}
+			{% if imp[2][2] == 1 %}
+		        <div class="navbar-login">
+			        <style>
+				    float: right;
+				    padding-left: 0.8rem;
+			        </style>
+			<div class="dropdown login-menu">
+			        <a class="dropdown-toggle" type="button" id="login-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				        <img class="profile-img" src="//secure.gravatar.com/avatar/{{"email"|md5_replace}}?d=retro"></a>
+				<div class="dropdown-menu dropdown-menu-right login-dropdown-menu" aria-labelledby="login-menu">
+			                <a href="/w/user:{{imp[2][5]}}" class="dropdown-item">{{imp[2][5]}}</a>
+				<div class="dropdown-divider"></div>
+				        <a class="dropdown-item" href="/record/{{imp[2][5]}}">기여</a>
+				        <a class="dropdown-item" href="/topic_record/{{imp[2][5]}}">토론</a>
+				<div class="dropdown-divider"></div>
+				        <a href="/user" class="dropdown-item">내 정보</a>
+				<div class="dropdown-divider view-logout"></div>
+				        <a href="/logout" class="dropdown-item view-logout">로그아웃</a>
+				</div>
+			</div> &nbsp;
+			<a href="/logout" class="none-outline" data-toggle="modal" data-target="#login-modal">
+		                <span class="fa fa-sign-out"></span>
+			</a>
+			</div>
+			{% elif imp[2][2] == 0 %}
+			<div class="navbar-login">
+			        <style>
+				        float: right;
+				        padding-left: 0.8rem;
+				</style>
+			<a href="/user" class="none-outline" data-toggle="modal" data-target="#login-modal">
+			        <span class="fa fa-sign-in"></span>
+			</a>
+                        </div>
+			{% endif %}
                 </ul>
                 <form method="post" action="/search" id="searchform" class="form-inline">
                     <div class="input-group">
@@ -137,9 +136,9 @@
                     {{data|safe}}
                 </div>
                 <div class="liberty-footer" id="bottom">
-					{% if imp[3][1] != 0 %}
-                        이 문서는 {{imp[3][1]}}에 마지막으로 편집되었습니다.
-					{% endif %}
+			{% if imp[3][1] != 0 %}
+                                이 문서는 {{imp[3][1]}}에 마지막으로 편집되었습니다.
+			{% endif %}
                     <p>
                         {{imp[1][1]|safe}}
                     </p>
