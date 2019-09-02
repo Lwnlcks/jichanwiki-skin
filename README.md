@@ -1,4 +1,4 @@
-## New_Liberty-openNAMU
+## New Liberty
  * 오픈나무 Liberty를 최대한 기존 스킨과 비슷하게 개조한 스킨입니다.
 
 ## 개발 상황
