@@ -63,7 +63,7 @@
 				        <a href="/logout" class="dropdown-item view-logout">로그아웃</a>
 				</div>
 			</div> &nbsp;
-			<a href="/logout" class="none-outline" data-toggle="modal" data-target="#login-modal">
+			<a href="/logout">
 		                <span class="fa fa-sign-out"></span>
 			</a>
 			</div>
@@ -73,7 +73,7 @@
 				        float: right;
 				        padding-left: 0.8rem;
 				</style>
-			<a href="/user" class="none-outline" data-toggle="modal" data-target="#login-modal">
+			<a href="/login">
 			        <span class="fa fa-sign-in"></span>
 			</a>
                         </div>
@@ -81,7 +81,7 @@
                 </ul>
                 <form method="post" action="/search" id="searchform" class="form-inline">
                     <div class="input-group">
-                        <input type="search" name="search" placeholder="위키 검색" accesskey="f" class="form-control" id="searchInput" autocomplete="off">
+                        <input type="search" name="search" placeholder="검색" accesskey="f" class="form-control" id="searchInput" autocomplete="off">
                         <span class="input-group-btn">
                             <button formaction="/goto" name="go" value="보기" id="searchGoButton" class="btn btn-secondary"><span class="fa fa-eye"></span></button>
                             <button name="fulltext" value="검색" id="searchSearchButton" class="btn btn-secondary"><span class="fa fa-search"></span></button>
