@@ -43,7 +43,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/other"><span class="fa fa-cogs"></span><span class="hide-title">도구</span></a>
                     </li>
-			{% if imp[2][2] == 1 %}
+			{% if imp[2][2] != 0 %}
 		        <div class="navbar-login">
 			        <style>
 				    float: right;
@@ -67,7 +67,7 @@
 		                <span class="fa fa-sign-out"></span>
 			</a>
 			</div>
-			{% elif imp[2][2] == 0 %}
+			{% else %}
 			    <div class="navbar-login">
 			        	<style>
 				        	float: right;
@@ -123,6 +123,11 @@
                     {% endif %}
                     <div class="title">
                         <h1 id="main_title">
+			{% if imp[2][2] == 2 %}
+			    <div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			    <div style="margin: -4px 0"><span aria-hidden="true">×</span></div>
+			    </button><div id="localNotice" lang="ko" dir="ltr"><div style="margin: -5px 0">현재 진행중인 <a href="/alarm">사용자 토론</a>이 있습니다.</div></div></div>
+			{% endif %}
                             {{imp[0]}}
                             {% if imp[3][0] != 0 %}
                                 <sub>{{imp[3][0]}}</sub>
