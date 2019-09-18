@@ -1,4 +1,4 @@
-![onamuLiberty](https://user-images.githubusercontent.com/53139020/65155099-9652b480-da67-11e9-8852-4c27bcf52554.png)
+![onamuLiberty](https://user-images.githubusercontent.com/53139020/65155273-f77a8800-da67-11e9-83ad-94b51f6a9b21.png)
 ## onamuLiberty
  * 오픈나무 Liberty를 최대한 기존 스킨과 비슷하게 개조한 스킨입니다.
 
