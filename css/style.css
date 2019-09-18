@@ -31,7 +31,7 @@ sub, sup {
 }
 
 #cate {
-	border: 1px solid #e1e8ed;
+    border: 1px solid #e1e8ed;
     padding: 0.4rem;
     padding-left: 1rem;
     box-shadow: 0.15rem 0.15rem 0 0 #cfdae2;
@@ -114,13 +114,18 @@ table {
 }
 
 #toc {
-	margin: 0;
+    margin: 0;
     padding: 0.6rem 1.2rem;
     border: 1px solid #e1e8ed;
-	border-radius: 0.35rem;
+    border-radius: 0.35rem;
 }
 
 #toc-name {
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-top-right-radius: 0.35rem;
+    border-top-left-radius: 0.35rem;
+    padding: 0.6rem 1.2rem; 
     font-size: 18px;
 }
 
@@ -170,19 +175,23 @@ div.scroll-buttons {
 }
 
 #toron_color_green {
-    background-color: #B0D3AD;
+    /*발제자*/
+    background-color: #C4D7F5;
 }
 
 #toron_color_red {
-    background-color: #f3c2c2;
+    /*시스템 (토론 고정)*/
+    background-color: #C4D7F5;
 }
 
 #toron_color_blue {
-    background: #c1ebff;
+    /*시스템 (토론 종결)*/
+    background: #C4D7F5;
 }
 
 #toron_color {
-    background-color: #d5d5d5;
+    /*토론 참여자*/
+    background-color: #dbcfcf;
 }
 
 @media (max-width: 768px) {
