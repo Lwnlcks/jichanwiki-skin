@@ -6,7 +6,7 @@
  * 100% 개발 완료.
 
 ## 적용 방법
- * 받고 폴더 이름을 "newliberty"로 변경한 후 "views"에 넣으면 됩니다.
+ * 받고 폴더 이름을 "onamuliberty"로 변경한 후 "views"에 넣으면 됩니다.
 
 ## 라이선스
 GNU GENERAL PUBLIC LICENSE<br>
