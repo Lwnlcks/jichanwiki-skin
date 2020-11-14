@@ -1,12 +1,11 @@
-![onamuLiberty](https://user-images.githubusercontent.com/53139020/65155273-f77a8800-da67-11e9-83ad-94b51f6a9b21.png)
-## onamuLiberty
- * 오픈나무 Liberty를 최대한 기존 스킨과 비슷하게 개조한 스킨입니다.
+## jichanwiki_skin
+ * 오픈나무 Liberty를 최대한 기존 스킨과 비슷하게 개조한 스킨을 바탕하여 개조한 스킨입니다
 
 ## 개발 상황
  * 100% 개발 완료.
 
 ## 적용 방법
- * 받고 폴더 이름을 "onamuliberty"로 변경한 후 "views"에 넣으면 됩니다.
+ * "views"에 넣으면 됩니다.
 
 ## 라이선스
 GNU GENERAL PUBLIC LICENSE<br>
